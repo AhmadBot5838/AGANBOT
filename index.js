@@ -18,12 +18,12 @@ const arrayBulan = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Jul
 const bulan = arrayBulan[moment().format('MM') - 1]
 
 const config = {
-    A187: '👾AR15BOT👾',
-    instagram: 'https://instagram.com/_sadboy.ig',
-    nomer: 'wa.me/6285722553839',
-    aktif: '24 JAM',
-    youtube: 'https://youtube.com/channel/UCGYLWtyT9IADYNUiK0uZiGg',
-    whatsapp: 'https://chat.whatsapp.com/DSSHmG2KjKJLoFp9B9mkVs',
+    A187: '🔥GUSTIAN BOT🔥',
+    instagram: 'https://instagram.com/ahmad_gustian_adi_nugraha',
+    nomer: 'wa.me/6282137409151',
+    aktif: 'BOT AKTIF 24JAM',
+    youtube: 'TIDAK ADA YA GUSY..',
+    whatsapp: 'https://chat.whatsapp.com/LA5k2AFAjrbAMcn7HXSQgP',
     tanggal: `TANGGAL: ${moment().format('DD')} ${bulan} ${moment().format('YYYY')}`,
     waktu: time
 }
@@ -278,7 +278,7 @@ client.on('message-new', async (m) => {
            corona()
                .then(data => {
                    const { meninggal, sembuh, positif } = data
-                   let hasil = `📌DATA WABAH COVID-19 TERBARU DI INDONESIA\n\n📍Positif ==> ${positif} \n📍Sembuh ==> ${sembuh} \n📍Meninggal ==> ${meninggal}`
+                   let hasil = `📊DATA WABAH COVID-19 TERBARU DI INDONESIA\n\n📝Positif ==> ${positif} \n📝Sembuh ==> ${sembuh} \n🗞️Meninggal ==> ${meninggal}`
                    client.sendMessage(id, hasil, MessageType.text)
                })
                .catch(err => {
@@ -360,7 +360,7 @@ client.on('message-new', async (m) => {
            lirik(value)
                .then(data => {
                    const { hasil: lirik } = data
-                   let hasil = `📍lirik lagu📍 *${value}* \n\n\n${lirik}`
+                   let hasil = `✨lirik lagu✨ *${value}* \n\n\n${lirik}`
                    client.sendMessage(id, hasil, MessageType.text)
                })
                .catch(err => {
@@ -703,7 +703,7 @@ case 'filmanime':
            case 'ssweb':
            ssweb()
                .then(buffer => {
-                   client.sendMessage(id, '[❗] WAIT BOSQ🖤', MessageType.text)
+                   client.sendMessage(id, '[❗] WAIT BOSQ❤️', MessageType.text)
                    client.sendMessage(id, buffer, MessageType.image)
                })
                .catch(err => {
