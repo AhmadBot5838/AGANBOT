@@ -21,8 +21,8 @@ const config = {
     A187: '🔥GUSTIAN BOT🔥',
     instagram: 'https://instagram.com/ahmad_gustian_adi_nugraha',
     nomer: 'wa.me/6282137409151',
-    aktif: 'BOT AKTIF 24JAM',
-    youtube: 'TIDAK ADA YA GUSY..',
+    aktif: '24JAM',
+    youtube: 'https://www.youtube.com/channel/UCU7G0TRqlAioKmw9ZkwWvFw',
     whatsapp: 'https://chat.whatsapp.com/LA5k2AFAjrbAMcn7HXSQgP',
     tanggal: `TANGGAL: ${moment().format('DD')} ${bulan} ${moment().format('YYYY')}`,
     waktu: time
